@@ -1,5 +1,6 @@
 
-document.addEventListener('DOMContentLoaded', () => {
-    const heading = document.querySelector('h1');
-    heading.textContent = 'Hello, World!';
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
 });
