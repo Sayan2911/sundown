@@ -269,7 +269,7 @@ font-family: "nh";
 
 #page4{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     /* background-color: red; */
 position: relative;
 }
@@ -392,3 +392,69 @@ transition: 1s;
 }
 
 
+#justButton{
+    /* height: 100px; */
+    /* width: 100px; */
+    /* background-color: black; */
+    position: relative;
+    margin-top: 5vh;
+    left: 3vw;
+    /* display: none; */
+}
+#page5{
+    height: 100vh;
+    width: 100vw;
+    /* padding: 3vh; */
+    margin-top: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p5cont{
+    height: 100%;
+    width: 95%;
+    background-color: #0B0500;
+    
+    border-radius: 20px;
+    display: flex;
+}
+#p5left{
+    height: 100%;
+    width: 40%;
+    /* background-color:red ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#p5right{
+    height: 100%;
+    width: 60%;
+    background-color:transparent ;
+}
+#p5right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#headings{
+    color: #504A45;
+    font-size: 25px;
+}
+#headings h1{
+    margin: 0;
+    padding-left: 2vw;
+    border-left: 4px solid #504A45;;
+    font-family: "nh";
+    cursor: pointer;
+}
+#paragraph{
+    color: white;
+    font-size: 18px;
+    text-align:left;
+    height: 35vh;
+    width: 17vw;
+    font-family: "nhlight";
+}
