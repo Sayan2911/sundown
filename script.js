@@ -60,3 +60,8 @@ function changeColor3(){
     picture.src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15cd_Execution-p-1080.jpg"
     paragraph.innerHTML="We're with you every step of the way, from the project initiation to launch day. Our production and design teams are onsite to direct and guide the process down to the last point of completion, ensuring success across the built space and experience."
 }
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    spaceBetween: 10,
+  });
